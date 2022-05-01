@@ -1,0 +1,72 @@
+/* estilização do Corpo */
+body {
+  background-image: repeating-linear-gradient(209deg, #66ffcc, #DCDCDC, white 10%);
+}
+
+main {
+  background-color: #98eed1;
+  width: 87%;
+  margin: 10px auto;
+  box-shadow: 7px 10px black;
+}
+
+/* Estilização Cabeçalho */
+#header {
+  width: 82%;
+  background-image: url(mariopix.png);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 40px auto;
+  padding: 50px;
+  box-shadow: 7px 10px black;
+}
+
+h1 {
+  color: #00cc00;
+  font-size: 50px;
+}
+
+#color-palette {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.pixel {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+#pixel-board {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#black,
+#red,
+#green,
+#blue {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+#clear-box {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#input-button {
+  text-align: center;
+  margin: 20px auto;
+}
